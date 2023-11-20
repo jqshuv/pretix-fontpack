@@ -3,12 +3,12 @@ from . import __version__
 
 
 class PluginApp(AppConfig):
-    name = 'pretix_fontpackfree'
-    verbose_name = 'Fontpack: Free fonts'
+    name = 'pretix_fontpack'
+    verbose_name = 'Fontpack'
 
     class PretixPluginMeta:
-        name = 'Fontpack: Free fonts'
-        author = 'Raphael Michel'
+        name = 'Fontpack'
+        author = 'Joshua Schmitt'
         description = 'Pack of free fonts for pretix\' ticket editor'
         visible = False
         version = __version__
