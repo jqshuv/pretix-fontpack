@@ -1,5 +1,5 @@
 [project]
-name = "pretix-fontpack"
+name = "pretix-fontpack-free"
 dynamic = ["version"]
 description = "Pack of free fonts for pretix' ticket editor"
 readme = "README.rst"
@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.entry-points."pretix.plugin"]
-pretix_fontpack = "pretix_fontpack:PretixPluginMeta"
+pretix_fontpackfree = "pretix_fontpackfree:PretixPluginMeta"
 
 [project.entry-points."distutils.commands"]
 build = "pretix_plugin_build.build:CustomBuild"
@@ -36,7 +36,7 @@ homepage = "https://github.com/jqshuv/pretix-fontpack"
 include-package-data = true
 
 [tool.setuptools.dynamic]
-version = {attr = "pretix_fontpack.__version__"}
+version = {attr = "pretix_fontpackfree.__version__"}
 
 [tool.setuptools.packages.find]
 include = ["pretix*"]

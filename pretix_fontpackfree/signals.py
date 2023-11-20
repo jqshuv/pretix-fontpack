@@ -6,7 +6,7 @@ from pretix.plugins.ticketoutputpdf.signals import register_fonts
 
 @receiver(register_fonts, dispatch_uid="fontpack_free_fonts")
 def fontpack_free(sender, **kwargs):
-    basepath = 'pretix_fontpack'
+    basepath = 'pretix_fontpackfree'
     return {
         "Noto Sans": {
             "regular": {

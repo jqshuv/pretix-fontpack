@@ -3,7 +3,7 @@ from . import __version__
 
 
 class PluginApp(AppConfig):
-    name = 'pretix_fontpack'
+    name = 'pretix_fontpackfree'
     verbose_name = 'Fontpack'
 
     class PretixPluginMeta:
