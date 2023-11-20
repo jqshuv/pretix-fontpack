@@ -34,6 +34,15 @@ def fontpack_free(sender, **kwargs):
                 "Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός"
             )
         },
+        
+        "Marker Felt": {
+            "regular": {
+                "truetype": basepath + "/MarkerFelt.ttf",
+                "woff": basepath + "/MarkerFelt.woff",
+                "woff2": basepath + "/MarkerFelt.woff2",
+            },
+        },
+        
         "Noto Sans Japanese": {
             "regular": {
                 "truetype": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.ttf",
