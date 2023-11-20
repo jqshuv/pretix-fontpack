@@ -1,5 +1,5 @@
 [project]
-name = "pretix-fontpack-free"
+name = "pretix-fontpack"
 dynamic = ["version"]
 description = "Pack of free fonts for pretix' ticket editor"
 readme = "README.rst"
@@ -30,7 +30,7 @@ requires = [
 ]
 
 [project.urls]
-homepage = "https://github.com/pretix/pretix-fontpack-free"
+homepage = "https://github.com/jqshuv/pretix-fontpack"
 
 [tool.setuptools]
 include-package-data = true
